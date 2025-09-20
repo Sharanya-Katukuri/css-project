@@ -8,12 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
 </head>
 
 <body>
+    <!-- Header/Navbar -->
     <header>
-        <!-- Header/Navbar -->
         <div class="navbar">
             <h1 class="logo">Bus Traveller</h1>
             <div class="nav">
@@ -32,24 +31,27 @@
 
         </div>
     </header>
-    <!-- hero section -->
-    <section>
+<!-- hero section -->
+    <section id="hero">
         <div class="bus">
             <div class="text">
                 <p>BUS YOUR TREVEL JOURNEY</p>
                 <h1>Where Every <br> Bus Ride Feels <br> Magical!</h1>
-                <button class="btn1">Book A Trip Now</button>
+                <div class="b">
+                <button class="btn1">Book A Trip Now</button> 
                 <button class="btn2">
                     <ion-icon name="caret-forward-circle-outline" class="vicon"></ion-icon>
                 </button>
+                </div>
             </div>
             <div class="img1">
                 <img src="bus.png" alt="">
             </div>
         </div>
-        <!-- image section -->
     </section>
-    <section>
+<!-- image section -->
+    <section id="pla">
+        <div class="pla">
         <div class="main">
             <h1>Popular Destination</h1>
             <p>Discover the Most Loved Destination Around the Globe</p>
@@ -59,33 +61,41 @@
             <div class="img2">
                 <img src="./card.jpg" alt="">
                 <h2>Sacred Calm at Badrinath <br>Temple.</h2>
+                <span class="cl1">
                 <p>Badrinath, Uttarakhand, India</p>
                 <h6><ion-icon name="star-sharp" id="star"></ion-icon> 4.7</h6>
+                </span>
             </div>
             <div class="img3">
                 <img src="./card2.jpg" alt="">
                 <h2>Divine Majesty at Jagannath <br> Temple.</h2>
+                <span class="cl">
                 <p>Puri, Odisha, India</p>
                 <h6><ion-icon name="star-sharp" id="star"></ion-icon> 4.8</h6>
+                </span>
             </div>
             <div class="img4">
                 <img src="./card3.webp" alt="">
                 <h2>Spiritual Serenity at Neem <br>Karoli Temple.</h2>
+                <span class="cl">
                 <p>Dehradun, India</p>
                 <h6><ion-icon name="star-sharp" id="star"></ion-icon> 4.5</h6>
+                </span>
             </div>
         </div>
+        </div>
     </section>
-    <!-- center section -->
-    <section>
+
+<!-- center section -->
+    <section id="txt">
         <div class="txt">
             <h2>Bus Travel, the Easy Way!</h2>
             <p>Effortless planning for Your Next Adventure</p>
         </div>
     </section>
 
-    <!-- popup section -->
-    <section>
+<!-- popup section -->
+    <section id="pop">
         <div class="pop">
             <div class="msg">
                 <ion-icon name="ribbon-sharp" id="icon"></ion-icon>
@@ -122,8 +132,9 @@
             </div>
         </div>
     </section>
-    <!-- middle section -->
-    <section>
+
+<!-- middle section -->
+    <section id="middle">
         <div class="middle">
             <div class="img5">
                 <img src="./showcase.webp" alt="">
@@ -151,8 +162,8 @@
             </div>
         </div>
     </section>
-    <!-- rating section -->
-     <section>
+<!-- rating section -->
+     <section id="rating">
         <div class="rating">
             <div class="rate"> 
                 <h1>10+</h1>
@@ -168,16 +179,15 @@
             </div>
         </div>
      </section>
-     <!-- heading section -->
-      <section>
+<!-- heading section -->
+      <section id="head">
         <div class="head">
             <h1>Discover Peace, Culture, and Devotion with Our Temple Bus Travels</h1>
             <p>"Witness Stunning Landscapes from the Comfort of Your Bus Seat"</p>
         </div>
       </section>
-
-      <!-- overall review -->
-       <section>
+<!-- overall review -->
+       <section id="review">
         <div class="review">
             <div class="cnt">
                 <h1 class="ic"><ion-icon name="aperture-outline" class=".symbol"></ion-icon></h1>
@@ -197,7 +207,7 @@
             </div>
         </div>
        </section>
-       <!-- footer section -->
+<!-- footer section -->
         <footer>
             <div class="footer">
                 <div class="foot1">
@@ -243,6 +253,7 @@
                 <p class="p1">Distributed by <a href="https://www.10000coders.in/" target="_blank">10000 coders</a></p>
             </div>
         </footer>
+
 </body>
 
 </html>
