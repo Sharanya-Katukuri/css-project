@@ -701,32 +701,35 @@ footer{
    color: red;
 }
 
+
+/* mobile view */
+
 @media screen and (min-width:320px) and (max-width:426px){
 
    /* header section */
-   body{
-      overflow-x: hidden
-   }
+   
    .navbar{
-      width: 100%;
+      width:36%;
       height: auto;
       flex-direction: column;
-      border:2px solid red;
+      border: 2px solid red;
    }
    
    .nav ul{
       flex-direction:row;
-      column-gap:50px;
+      column-gap:8px;
+      margin-left: -25px;
    }
    .nav ul li a{
-      font-size: 18px;
-      /* margin-left:10%; */
+      font-size: 14px;
    }
    
    .btn{
       text-align: center;
-      width:20%;
-      margin-left: 250px;
+      width: 38%;
+      height: 50px;
+      font-size: 13px;
+      margin-left: 100px;
 }
 
  /* hero section */
@@ -835,6 +838,10 @@ footer{
 
 
 }
+body{
+   border: 5px solid red;
+   
+}
 #icon1{
    width: 10px;
 }
@@ -861,7 +868,130 @@ footer{
    height: auto;
 }
 .text1 h1{
-   font-size:10px;
-   margin: auto;
+   font-size:20px;
+   border:2px solid red;
 }
+.text1 img{
+   width:95%;
+}
+.text1 p{
+   font-size: 13px;
+}
+.text3 p{
+   border: 2px solid red;
+   font-size: 20px;
+   margin-top: 40px;
+}
+.text3{
+   justify-content: start;
+   margin-left: 25px;
+}
+
+/* rating section */
+.rating{
+   flex-direction: column;
+   row-gap: 20px;
+   align-items: center;
+}
+.rate{
+   width:90%;
+}
+/* heading selection */
+.head h1{
+   font-size: 25px;
+}
+.head p{
+   font-size: 15px;
+   margin-top: 10px;
+}
+
+/* review section */
+.review{
+   flex-direction: column;
+   row-gap: 20px;
+   align-items: center;
+}
+.cnt{
+   width:90%;
+}
+
+/* footer section */
+
+footer{
+   width: 100%;
+   height: auto;
+}
+.footer{
+
+   flex-direction: column;
+   align-items:start;
+   justify-content: start;
+   margin-left: -30px;
+}
+.foot1,
+  .foot2,
+  .foot3,
+  .foot4 {
+    width: 95%;
+    margin: 50px;
+    /* margin-bottom: 20px; */
+  }
+  .foot4 input,
+  .foot4 button {
+    width: 100%;
+  }
+  .foot1>h2{
+   font-size: 25px;
+  }
+  .foot1>p{
+   font-size: 12px;
+  }
+  .social{
+   column-gap: 10px;
+   justify-content:start;
+   align-items: start;
+  }
+  .is{
+   font-size:22px;
+  }
+  .si{
+   width:35px;
+   height: 35px;
+   text-align: center;
+  }
+  .foot2{
+   margin-top: -60px;
+  }
+  .foot2 p{
+   font-size: 12px;
+  }
+  .foot3{
+   margin-top: -50px;
+  }
+  .foot3 h3{
+   font-size: 20px;
+  }
+  .one p{
+   font-size: 12px;
+  }
+  .foot4{
+   margin-top: -50px;
+  }
+  .foot4 input{
+   width:200px;
+   height: 30px;
+   font-size: 12px;
+  }
+  .foot4 button{
+   width:228px;
+   height: 35px;
+  }
+  .copy{
+   margin-top: 50px;
+  }
+  .copy p{
+   font-size: 13px;
+  }
+  
+
 }
