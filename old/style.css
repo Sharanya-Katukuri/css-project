@@ -730,8 +730,7 @@ footer{
       width: 38%;
       height: 50px;
       font-size: 13px;
-      margin-bottom: 20px;
-      
+      margin-bottom:20px;
 }
 
  /* hero section */
@@ -868,7 +867,6 @@ footer{
 }
 .text1 h1{
    font-size:20px;
-   border:2px solid red;
 }
 .text1 img{
    width:95%;
@@ -877,7 +875,6 @@ footer{
    font-size: 13px;
 }
 .text3 p{
-   border: 2px solid red;
    font-size: 20px;
    margin-top: 40px;
 }
@@ -934,6 +931,7 @@ footer{
   .foot4 {
     width: 95%;
     margin: 50px;
+    /* margin-bottom: 20px; */
   }
   .foot4 input,
   .foot4 button {
@@ -991,6 +989,239 @@ footer{
   .copy p{
    font-size: 13px;
   }
-  
+
+}
+
+
+/* tab view */
+
+
+@media screen and (min-width:426px) and (max-width:769px){
+
+   body{
+      margin: 0;
+      }
+   /* header section */
+   .navbar{
+      flex-direction: row;
+      height: 70px;
+      padding: 10px;
+      width:100%
+   }
+   .nav ul{
+      column-gap: 20px;
+   }
+   .nav ul li a{
+      font-size: 16px;
+   }
+   .btn{
+      width: 15%;
+      font-size: 15px;
+      margin-left: 1%;
+      margin-top:10px;
+   }
+
+   /* hero section */
+   .bus{
+      flex-direction: column;
+      margin-top:95px;
+      text-align:center;
+   }
+   .text{
+      width:50%;
+      margin-top: 100px;
+   }
+   .text h1{
+      font-size: 45px;
+      margin-top: 10px;
+   }
+   .text p{
+      font-size: 15px;
+   }
+   .bus img{
+      width:450px;
+      margin-top: -45px;
+   }
+   .b{
+      justify-content: center;
+      align-items: center;
+      column-gap: 15px;
+   }
+   .btn1{
+      width:35%;
+      font-size: 14px;
+   }
+   .vicon{
+      margin-top: 2px;
+   }
+
+   /* image section */
+
+   .main{
+      align-items: center;
+      justify-content: center;
+      row-gap: 0px;
+   }
+   .main p{
+      margin-top: 1px;
+      font-size: 16px;
+   }
+   .img{
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 20px;
+      margin-top: -10px;
+   
+   }
+   .img2, .img3, .img4 {
+      width: 45%;
+   }
+   .img img {
+      width: 100%;
+      height: auto;
+   }
+   .img h2{
+      font-size: 18px;
+   }
+   .img h6{
+      width:40px;
+      height: 20px;
+      font-size: 12px;
+      margin-top: 4px;
+      padding-left:5px;
+
+   }
+   .cl{
+      column-gap:100px ;
+   }
+   .cl1{
+      column-gap: 40px;
+   }
+   .cl p,.cl1 p{
+      font-size: 14px;
+   }
+
+   /* popup section */
+   .pop{
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 100px;
+   }
+   .msg{
+      width: 45%;
+      /* border: 2px solid red; */
+   }
+   .msg p{
+      margin-top: 40px;
+      font-size: 18px;
+   }
+   #icon{
+      font-size: 25px;
+   }
+   .in{
+      width: 35px;
+      height: 35px;
+   }
+   .content{
+      width:89%;
+      height: 230px;
+      top:-70px;
+      padding-top: 0;
+   }
+   .content h5{
+      font-size: 15px;
+   }
+   .content p{
+      font-size: 14px;
+      margin-top:-10px;
+   }
+
+   /* middle section */
+   .middle{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   .img5 img{
+      width:80%;
+   }
+   .text1 h1{
+      font-size: 35px;
+   }
+   .text1 p{
+      font-size: 16px;
+   }
+   .text1 img{
+      width: 95%;
+   }
+   .text3{
+      margin-top: -70px;
+      width:580px;
+   }
+   .text3 p{
+      font-size: 25px;
+   }
+   /* rating section */
+   .rate h1{
+      font-size:60px;
+   }
+   .rate p{
+      font-size: 16px;
+      margin-top:-25px;
+   }
+   /* heading section */
+
+   .head h1{
+      font-size: 30px;
+   }
+   .head p{
+      margin-top: 10px;
+   }
+
+   /* overall review */
+
+   .review{
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 80px;
+   }
+
+   /* footer section */
+
+   footer{
+      height: auto;
+   }
+   .footer{
+      flex-wrap: wrap;
+      row-gap: 20px;
+      column-gap: 55px;
+   }
+   .foot1, .foot2, .foot3, .foot4 {
+      width: 45%;
+   }
+   .foot1>h2{
+      font-size: 25px;
+   }
+   .foot1>p{
+      font-size: 14px;
+   }
+   .foot2 p{
+      font-size:14px;
+   }
+   .si{
+      width:35px;
+      height: 35px;
+   }
+   .is{
+      font-size: 25px;
+   }
+   .foot4 input{
+      width: 250px;
+      height: 35px;
+   }
+   .foot4 button{
+      width:275px;
+      height: 35px;
+   }
 
 }
