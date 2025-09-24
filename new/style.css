@@ -709,10 +709,11 @@ footer{
    /* header section */
    
    .navbar{
-      width:36%;
+      width:100%;
       height: auto;
       flex-direction: column;
-      border: 2px solid red;
+      text-align: center;
+      display: block;
    }
    
    .nav ul{
@@ -729,7 +730,7 @@ footer{
       width: 38%;
       height: 50px;
       font-size: 13px;
-      margin-left: 100px;
+      margin-bottom:20px;
 }
 
  /* hero section */
@@ -737,7 +738,7 @@ footer{
 
  .bus{
    flex-direction: column;
-   margin-top:195px;
+   margin-top:220px;
    text-align: center;
 
    
@@ -838,10 +839,7 @@ footer{
 
 
 }
-body{
-   border: 5px solid red;
-   
-}
+
 #icon1{
    width: 10px;
 }
@@ -869,7 +867,6 @@ body{
 }
 .text1 h1{
    font-size:20px;
-   border:2px solid red;
 }
 .text1 img{
    width:95%;
@@ -878,13 +875,13 @@ body{
    font-size: 13px;
 }
 .text3 p{
-   border: 2px solid red;
    font-size: 20px;
    margin-top: 40px;
 }
 .text3{
    justify-content: start;
    margin-left: 25px;
+   width: 70%;
 }
 
 /* rating section */
